@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Saya - Yoga Adiguna</title>
+</head>
+
+<body>
+    <header>
+        <h1>Profil Saya</h1>
+        <p><strong>Nama:</strong> Yoga Adiguna</p>
+        <p><strong>NIM:</strong> F1D02410028</p>
+        <p><strong>Kelas:</strong> C</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href='#tentang'>Tentang Saya</a></li>
+            <li> <a href='#pendidikan'>Pendidikan</a></li>
+            <li> <a href='#kontak'>Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>
+                Perlenalkan nama saya Yoga Adiguna, saya adalah mahasiswa jurusan <b>Teknik Informatika</b>.
+                Saya memiliki minat pada bidang <i>pemrograman</i>, 
+                <u>dan juga pengembangan web</u>.
+            </p>
+
+            <h3>Hobi Saya</h3>
+            <p>
+                Saya memiliki hobi yaitu bermain game, makan, dan juga tidur.
+            </p>
+
+            <img src="https://via.placeholder.com/200"
+                 alt="Foto Profil"
+                 width="200">
+        </section>
+
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Tahun</th>
+                        <th>Institusi</th>
+                    </tr>
+                </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2022 - 2024</td>
+                <td>SMA Negeri 1 SUMBAWA BESAR</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2024 - Sekarang</td>
+                <td>Universitas Mataram</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Pendidikan: 2</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</section>
+
+        <section id="kontak">
+            <h2>Form Kontak</h2>
+            <form>
+                <label>Nama:</label><br>
+                <input type="text" name="nama"><br><br>
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+                <label>Password:</label><br>
+                <input type="password" name="password"><br><br>
+                <label>Tanggal Lahir:</label><br>
+                <input type="text" name="tanggal" placeholder="DD-MM-YYYY"><br><br>
+
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" name="jeniskelamin" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan
+                <br><br>
+
+                <label>Hobi:</label><br>
+                <input type="checkbox" name="hobi1"> Bermain Game
+                <input type="checkbox" name="hobi2"> Makan
+                <input type="checkbox" name="hobi3"> Tidur
+                <br><br>
+
+                <label>Pesan:</label><br>
+                <textarea rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> Yoga Adiguna | Tugas Pemrograman Web</p>
+    </footer>
+
+</body>
+</html>
